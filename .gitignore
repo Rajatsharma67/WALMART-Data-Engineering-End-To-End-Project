@@ -1,0 +1,64 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secret files
+
+walmart_end_to_end_de_project_dbt/profiles.yml
+dlt_pipeline/.dlt/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+airflow_env/
+
+# Environment Variables
+.env
+
+# DLT Secrets
+.dlt/
+dlt_pipeline/.dlt/
+
+# dbt
+walmart_end_to_end_de_project_dbt/target/
+walmart_end_to_end_de_project_dbt/dbt_packages/
+walmart_end_to_end_de_project_dbt/logs/
+
+# VS Code
+.vscode/
+
+# Luigi
+orchestration/status/
+orchestration/logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.log
+*.tmp
+
+# dbt Docs (optional - regenerate anytime)
+walmart_end_to_end_de_project_dbt/target/catalog.json
+walmart_end_to_end_de_project_dbt/target/manifest.json
+walmart_end_to_end_de_project_dbt/target/run_results.json

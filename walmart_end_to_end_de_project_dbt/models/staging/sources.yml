@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: raw
+    database: WALMART_RPTDB
+    schema: RAW
+
+    tables:
+      - name: customers
+      - name: orders
+      - name: products
+      - name: employees
+      - name: order_items
+      - name: stores

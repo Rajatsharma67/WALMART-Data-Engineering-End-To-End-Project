@@ -1,0 +1,8 @@
+
+target/
+dbt_packages/
+logs/
+.env
+walmart_end_to_end_de_project_dbt/profiles.yml
+dlt_pipeline/.dlt/secrets.toml
+
